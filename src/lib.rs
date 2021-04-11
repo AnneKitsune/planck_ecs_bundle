@@ -1,14 +1,14 @@
 //! Adds a simple `Bundle` trait that makes it easier to add
 //! a group of systems to a `DispatcherBuilder`.
 #![deny(missing_docs)]
-use planck_ecs::*;
+use world_dispatcher::*;
 
 /// A trait allowing the creation of bundles.
 /// Bundles are groups of `System`s that are added together and
 /// in order in a `DispatcherBuilder`.
 /// # Example
 /// ```rust
-/// use planck_ecs::*;
+/// use world_dispatcher::*;
 /// use planck_ecs_bundle::*;
 /// struct TestBundle;
 /// impl Bundle for TestBundle {

@@ -5,4 +5,4 @@ authors = ["jojolepro <jojolepro@jojolepro.com>"]
 edition = "2018"
 
 [dependencies]
-planck_ecs = "1.1.2"
+world_dispatcher = "1.1.2"
