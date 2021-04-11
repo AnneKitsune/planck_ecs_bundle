@@ -50,9 +50,13 @@ mod tests {
         impl Bundle for TestBundle {
             fn systems() -> Vec<System> {
                 vec![
-                    (|| {Ok(())}).system(),
-                    (|| {Ok(())}).system(),
-                    (|| {println!("hello!"); Ok(())}).system(),
+                    (|| Ok(())).system(),
+                    (|| Ok(())).system(),
+                    (|| {
+                        println!("hello!");
+                        Ok(())
+                    })
+                    .system(),
                 ]
             }
         }
