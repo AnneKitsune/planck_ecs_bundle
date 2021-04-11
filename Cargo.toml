@@ -1,0 +1,8 @@
+[package]
+name = "planck_ecs_bundle"
+version = "1.0.0"
+authors = ["jojolepro <jojolepro@jojolepro.com>"]
+edition = "2018"
+
+[dependencies]
+planck_ecs = "1.1.2"
