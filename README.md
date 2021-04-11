@@ -1,6 +1,6 @@
 <img src="repo/splash.png" alt="Planck ECS" />
-<a href="https://crates.io/crates/planck_ecs">
-    <img src="https://img.shields.io/crates/v/planck_ecs.svg" alt="Planck ECS" />
+<a href="https://crates.io/crates/planck_ecs_bundle">
+    <img src="https://img.shields.io/crates/v/planck_ecs_bundle.svg" alt="Planck ECS Bundle" />
 </a>
 
 # Planck ECS Bundles
@@ -9,7 +9,7 @@ Support an Open Source Developer! :hearts:
 [![Become a patron](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/jojolepro)
 
 Depends on:
-* [world_dispatcher](https://github.com/jojolepro/world_dispatcher): the `System` part of the ECS.
+* [world_dispatcher](https://github.com/jojolepro/world_dispatcher): the `System` part of an ECS engine.
 
 Read the [documentation](https://docs.rs/planck_ecs_bundle).
 
