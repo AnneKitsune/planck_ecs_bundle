@@ -1,6 +1,6 @@
 [package]
 name = "planck_ecs_bundle"
-version = "1.0.0"
+version = "1.1.0"
 authors = ["Joël Lupien (Jojolepro) <jojolepro@jojolepro.com>"]
 edition = "2018"
 description = "Adds bundles to planck_ecs."
@@ -11,4 +11,4 @@ exclude = ["doc"]
 repository = "https://github.com/jojolepro/planck_ecs_bundle/"
 
 [dependencies]
-world_dispatcher = "1.2.2"
+world_dispatcher = "1.2.0"
