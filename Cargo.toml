@@ -11,4 +11,4 @@ exclude = ["doc"]
 repository = "https://github.com/jojolepro/planck_ecs_bundle/"
 
 [dependencies]
-world_dispatcher = "1.1.2"
+world_dispatcher = "1.2.2"
